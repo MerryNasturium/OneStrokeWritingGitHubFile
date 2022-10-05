@@ -234,6 +234,8 @@ public class TouchPointCheck : MonoBehaviour
         GameObject Marker = Instantiate(_lineMakerObject);
         //マーカーのオプション
         LineMarkerOption MarkerOption = Marker.GetComponent<LineMarkerOption>();
+        //マーカの幅調整
+        MarkerOption.GetWidth(PassWritingPointList[0]._lineScale);
         //ラインの位置を設定する
         MarkerOption.PassMarker(StartPos,EndPos);
         //通った道のマーカーを入手

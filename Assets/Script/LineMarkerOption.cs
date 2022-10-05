@@ -17,10 +17,6 @@ public class LineMarkerOption : MonoBehaviour
 
     void Start()
     {
-        //_lineRenderer = GetComponent<LineRenderer>();
-
-        //ü‚Ì•
-        _lineRenderer.SetWidth(0.2f, 0.2f);
         //F
         _lineRenderer.material = _writingColor;
         //’¸“_‚Ì” 
@@ -36,5 +32,11 @@ public class LineMarkerOption : MonoBehaviour
         //’¸“_İ’è
         _lineRenderer.SetPosition(0, StartPos + Positioning);
         _lineRenderer.SetPosition(1, EndPos + Positioning);
+    }
+
+    public void GetWidth(float _setWidth)
+    {
+        //ü‚Ì•
+        _lineRenderer.SetWidth(_setWidth, _setWidth);
     }
 }

@@ -206,7 +206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 219415979}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 644198504}
+        m_TargetAssemblyTypeName: Title, Assembly-CSharp
+        m_MethodName: PlayButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &219415979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,7 +340,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 384216519}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 644198504}
+        m_TargetAssemblyTypeName: Title, Assembly-CSharp
+        m_MethodName: PlayButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &384216519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -619,6 +643,7 @@ GameObject:
   - component: {fileID: 644198502}
   - component: {fileID: 644198501}
   - component: {fileID: 644198500}
+  - component: {fileID: 644198504}
   m_Layer: 5
   m_Name: TitleCanvas
   m_TagString: Untagged
@@ -708,6 +733,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &644198504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644198499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8765cb007839dea41b64e48fa1effcf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &718670917
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,7 +975,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 771533997}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 644198504}
+        m_TargetAssemblyTypeName: Title, Assembly-CSharp
+        m_MethodName: OpenHowToPlay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &771533997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1614,7 +1663,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "\u30D7\u30EC\u30A4"
 --- !u!222 &2143676874
 CanvasRenderer:
   m_ObjectHideFlags: 0
